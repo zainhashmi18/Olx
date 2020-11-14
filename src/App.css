@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.counter{
+ text-align: center;
+ margin-top: 20px;
+ background-color: cadetblue;
+ color: white;
+}
+.navcont{
+    background-color: #F7F8F8;
+}
+.cntclass{
+    width: 1350px !important;
+    margin: auto;
+    padding: 10px;
+    margin: 0 !important;
+}
+.inputclass1{
+    width: 272px !important;
+    margin: 8px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 48px;
+    vertical-align: top;
+}
+.inputclass2{
+    width: 683.94px !important;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 48px;
+    margin-right: 0;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-right-width: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input1,.input1:focus{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 100%;
+    padding: 0 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input2,.input2:focus{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.seachbtn{
+    width: 48px !important;
+    display: inline-block;
+    background-color: #002F34;
+    margin-top: 8px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 48px;
+    vertical-align: top;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left-width: 0;
+    margin-right: 8px;
 }
-
-.App-link {
-  color: #61dafb;
+.seachbtn svg{
+    padding-top: 10px;
+    display: inline-block;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginbtn{
+    text-decoration: underline !important;
+    outline: none !important;
+    font-size: 17px !important;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+    color: #002F34  !important   ;
+    margin: 0 15px !important;
+}
+.loginbtn:hover{
+    text-decoration: none !important;
+    outline: none !important;
+}
+._21nYN {
+    position: relative;
+    display: inline-block;
+    width: 104px;
+    height: 48px;
+}
+._21nYN ._3V9PS {
+    width: 100%;
+    height: 100%;
+}
+._21nYN ._2bClX._12yOz {
+    fill: #fff;
+}
+._21nYN ._2bClX {
+    stroke: none;
+    fill-rule: evenodd;
+    fill-opacity: 1;
+}
+._21nYN ._2bClX._YBz- {
+    fill: #ffce32;
+}
+._21nYN ._2bClX {
+    stroke: none;
+    fill-rule: evenodd;
+    fill-opacity: 1;
+}
+._21nYN ._2bClX._3uYj7 {
+    fill: #23e5db;
+}
+._21nYN ._2bClX {
+    stroke: none;
+    fill-rule: evenodd;
+    fill-opacity: 1;
+}
+._21nYN ._2bClX.BfroU {
+    fill: #3a77ff;
+}
+._21nYN ._2bClX {
+    stroke: none;
+    fill-rule: evenodd;
+    fill-opacity: 1;
+}
+._21nYN .DrSmZ {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: #002f34;
+}
+._21nYN .EgzsJ {
+    display: inline-flex;
+    margin-right: 4px;
+}
+.rui-367TP {
+    fill: #002f34;
+}
+fontsninja-text {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+.categories{
+    outline: none !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    color: rgb(78, 77, 77)  !important   ;
+    margin: 0 15px !important;
+}
+.linknav{
+    padding:0 10px;
+    color:  rgb(85, 83, 83);
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+.linknav:hover{
+    text-decoration: none;
+    color: #27ACB4;
+}
+.adds{
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url("https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg") !important;
+}
+.adds2{
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url("https://tpc.googlesyndication.com/simgad/710528743316220813") !important;
 }
